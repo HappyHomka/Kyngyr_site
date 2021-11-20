@@ -89,6 +89,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.section_two_img{
+    width:100px;
+    height:100px;
+}
+
 .section-two_item{
     margin: 40px;
 }
