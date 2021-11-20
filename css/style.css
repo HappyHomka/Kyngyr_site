@@ -89,9 +89,9 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.section_two_img{
-    width:100px;
-    height:100px;
+.section-two_img{
+    width:150px;
+    height:150px;
 }
 
 .section-two_item{
@@ -110,7 +110,7 @@
 }
 
 .info_description{
-    width: 300px;
+    width: 200px;
     margin: 10px 0px;
     color: black;
     text-align: center;
