@@ -427,8 +427,132 @@
     height: 90px;
 }
 
-/* === mb-version === */
+/* === section-seven===*/
 
-@media screen and (max-width: 576px) {
-    
+.section_seven {
+    background-color: #3c549a;
+    height: 780px;
+}
+
+.header_seven {
+    padding-top: 60px;
+    font-size: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header_seven::after {
+    content: ' ';
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid #2a417e;
+    width: 84px;
+    bottom: 475px;
+    left: 46%;
+    opacity: 0.5;
+
+    margin-top: 27px;
+}
+
+.undertitle_seven {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.name__email {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;   
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.your_name {
+    color: white;
+    height: 50px;
+    width: 380px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.your_email {
+    color: white;
+    height: 50px;
+    width: 380px;
+    border-radius: 15px;
+    margin-left: 55px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.your_massage {
+    color: white;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 855px;
+    height: 200px;  
+}
+
+input:valid {
+    background-color: #273a72;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+}
+
+.your_massage { 
+    text-align: center;
+    vertical-align: 10px;
+    font-size: 15px;
+}
+
+.click__seven {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.send__massage {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    background-color: #30bae7;
+    padding-top: 17px;
+    padding-bottom: 21px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 5px;
+}
+
+.send__massage:hover {
+    background-color: #007399;
+}
+
+.end__seven {
+    height: 150px;
+    background-color: #344b8d;
+}
+
+.link__item {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.end_link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.end_link:hover {
+    background-color: #cc8585;
 }
